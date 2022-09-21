@@ -1,0 +1,198 @@
+
+/* Diseño responsive */
+@media screen and (min-width: 320px) {
+    body{
+        background-image: url(./img/charcoal.gif);
+        text-align: center;
+    }
+    /* logo pagina */
+    header img{
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    
+    /*Menu links*/
+    nav{
+        display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    }
+    
+    a:visited{
+        color: rgb(17, 17, 153, 0.473)
+    }
+    
+    
+    a:hover {
+        color: rgb(143, 127, 87);
+        text-shadow: 1px 1px rgb(247, 244, 241);
+    }
+    a:active {
+    color: #000;
+    text-shadow: rgb(247, 244, 241);
+    }
+    }
+    
+    
+    /* Titulo */
+    header h3{
+        margin-top: 100px;
+        text-align: center;
+        border: solid 5px rgb(143, 127, 87);
+        font-style: italic;
+        color: rgb(143, 127, 87);
+        text-shadow: 1px 1px rgb(247, 244, 241);
+        font-size: xx-large;  
+        position: relative;  
+    }
+    
+    /* Titulo otras paginas */
+    h4{
+        font-style: italic;
+        color: rgb(143, 127, 87);
+        text-shadow: 1px 1px rgb(247, 244, 241);
+        font-size: x-large;  
+        position: relative;  
+    }
+    /* menu */
+    header nav{
+        font-style: italic;
+        color: rgb(143, 127, 87);
+        line-height: calc(2);
+        text-align: center;
+        height: 200px;
+        font-size: larger;
+    }
+    /* articulo */
+    main article p{
+        font-style: italic;
+        color: rgb(143, 127, 87);
+        text-align: center;
+        font-size:large;
+        background-color: #333;
+        border: solid 5px  #000;
+    }     
+    
+    /* imagenes carta */
+    section img{
+        border-radius: 50px;
+        align-items: center;
+        height: 200px;
+        width: 300px;
+    }
+    
+    /*Formulario */    
+    section article {
+        font-size: large;
+        font-style: italic;
+        color: rgb(143, 127, 87);
+        font-size: large;
+        width: fit-content;
+        display: grid;
+        grid-template-columns: 200px 300px;
+        grid-template-rows: 200px 300px;
+        grid-auto-flow: row;
+        padding-left: 43%;
+        margin-bottom: 100px;
+        text-shadow: none;
+    }
+    
+    .textarea{
+    width: 200px;
+    }
+    
+    /* Comienzo del footer */
+    footer section img{
+        margin-top: 200px;
+        font-style: italic;
+        text-align: center;
+        font-size: x-large;
+        line-height: calc(2);
+        width: 75px;
+        height: 75px;
+    }
+    
+    /* Diseño tamaño web */
+@media screen and (min-width: 768px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        background-image: url(./img/charcoal.gif);
+        text-align: center;
+    }
+    /* logo pagina */
+    header img{
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    /* Titulo */
+    header h3{
+        margin-left: 150px;
+        margin-right: 150px;
+        text-align: center;
+        border: solid 5px rgb(143, 127, 87);
+        font-style: italic;
+        color: rgb(143, 127, 87);
+        text-shadow: 1px 1px rgb(247, 244, 241);
+        font-size: xx-large;  
+        position: relative;  
+    }
+    
+    /* Titulo otras paginas */
+    h4{
+        font-style: italic;
+        color: rgb(143, 127, 87);
+        text-shadow: 1px 1px rgb(247, 244, 241);
+        font-size: x-large;  
+        position: relative;  
+    }
+    /* menu */
+    header nav{
+        font-style: italic;
+        color: rgb(143, 127, 87);
+        line-height: calc(2);
+        text-align: center;
+        height: 200px;
+        font-size: larger;
+    }
+    /* articulo */
+    main article p{
+        margin-left: 150px;
+        margin-right: 150px;
+        font-style: italic;
+        color: rgb(143, 127, 87);
+        text-align: center;
+        font-size:large;
+        background-color: #333;
+        border: solid 5px  #000;
+    }     
+    
+    /* imagenes carta */
+    section img{
+        border-radius: 50px;
+        align-items: center;
+        height: 200px;
+        width: 300px;
+    }
+    
+    section article form{
+        font-size: large;
+        font-style: italic;
+        color: rgb(143, 127, 87);
+        
+        font-size: large; 
+    }
+    
+    
+    /* Comienzo del footer */
+    footer section img{
+        font-style: italic;
+        text-align: center;
+        font-size: large;
+        line-height: calc(2);
+        width: 75px;
+        height: 75px;
+    }
+    }
