@@ -71,7 +71,7 @@
         text-align: center;
         font-size:large;
         background-color: #333;
-        transform: rotate(200deg)
+        transform: rotate(200deg);
         border: solid 5px  #000;
     }     
     
