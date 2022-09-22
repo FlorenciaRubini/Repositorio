@@ -71,12 +71,21 @@
         text-align: center;
         font-size:large;
         background-color: #333;
-        transform: rotate(200deg);
         border: solid 5px  #000;
     }     
     
     /* imagenes carta */
+    .carta{
+        margin-top: 100px;
+        border-radius: 50px;
+        align-items: center;
+        height: 200px;
+        width: 300px;
+        transform: rotate(15deg);
+    }
+    
     section img{
+        margin-top: 100px;
         border-radius: 50px;
         align-items: center;
         height: 200px;
