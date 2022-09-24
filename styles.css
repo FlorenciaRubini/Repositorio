@@ -15,12 +15,11 @@
     /*Menu links*/
     nav{
         display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
+        justify-content: center;
     }
     
     a:visited{
-        color: rgb(17, 17, 153, 0.473)
+        color: rgba(206, 206, 216, 0.473);
     }
     
     
@@ -32,37 +31,38 @@
     color: #000;
     text-shadow: rgb(247, 244, 241);
     }
-    }
-    
     
     /* Titulo */
     header h3{
-        margin-top: 100px;
+        margin-top: 25px;
         text-align: center;
         border: solid 5px rgb(143, 127, 87);
         font-style: italic;
         color: rgb(143, 127, 87);
         text-shadow: 1px 1px rgb(247, 244, 241);
         font-size: xx-large;  
-        position: relative;  
+        position: relative;
+        margin-bottom: 50px;
     }
     
     /* Titulo otras paginas */
     h4{
+        margin-top: 100px;
         font-style: italic;
         color: rgb(143, 127, 87);
         text-shadow: 1px 1px rgb(247, 244, 241);
         font-size: x-large;  
         position: relative;  
+        text-align: center;
     }
     /* menu */
     header nav{
         font-style: italic;
         color: rgb(143, 127, 87);
         line-height: calc(2);
-        text-align: center;
-        height: 200px;
         font-size: larger;
+        align-items: center;
+        display: grid;
     }
     /* articulo */
     main article p{
@@ -85,42 +85,41 @@
     }
     
     section img{
-        margin-top: 100px;
         border-radius: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
         align-items: center;
-        height: 200px;
-        width: 300px;
+        margin-bottom: 50px;
     }
     
     /*Formulario */    
-    section article {
+    section article form {
+        margin-top: 50px;
         font-size: large;
         font-style: italic;
         color: rgb(143, 127, 87);
-        font-size: large;
-        width: fit-content;
         display: grid;
-        grid-template-columns: 200px 300px;
-        grid-template-rows: 200px 300px;
-        grid-auto-flow: row;
-        padding-left: 43%;
-        margin-bottom: 100px;
-        text-shadow: none;
+        grid-template-columns: 250px;
+        grid-template-rows: 75px 75px 75px 75px 75px 75px;
+        align-items: center;
+        padding: 20px;
     }
     
     .textarea{
-    width: 200px;
-    }
+        width: 275px;
+        height: 275px;
+        }
     
     /* Comienzo del footer */
     footer section img{
-        margin-top: 200px;
+        margin-top: 150px;
         font-style: italic;
         text-align: center;
-        font-size: x-large;
+        font-size: large;
         line-height: calc(2);
-        width: 75px;
+        width: 90px;
         height: 75px;
+    }
     }
     
     /* Diseño tamaño web */
@@ -150,6 +149,28 @@
         position: relative;  
     }
     
+    
+    /*Menu links*/
+    nav{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    
+    a:visited{
+        color: rgba(206, 206, 216, 0.473);
+    }
+    
+    
+    a:hover {
+        color: rgb(143, 127, 87);
+        text-shadow: 1px 1px rgb(247, 244, 241);
+    }
+    a:active {
+    color: #000;
+    text-shadow: rgb(247, 244, 241);
+    }
+    
     /* Titulo otras paginas */
     h4{
         font-style: italic;
@@ -185,16 +206,29 @@
         align-items: center;
         height: 200px;
         width: 300px;
+        margin-top: 100px;
     }
     
-    section article form{
+    section article{
         font-size: large;
         font-style: italic;
         color: rgb(143, 127, 87);
-        
-        font-size: large; 
+        font-size: large;
+        margin-bottom: 100px;
+        text-shadow: none;
     }
     
+    /*Formulario */    
+    section article form {
+        margin-top: 50px;
+        font-size: large;
+        font-style: italic;
+        color: rgb(143, 127, 87);
+        display: grid;
+        grid-template-columns: 250px;
+        grid-template-rows: 75px 75px 75px 75px 75px 75px;
+        padding-left: 43%;
+    }
     
     /* Comienzo del footer */
     footer section img{
@@ -202,7 +236,5 @@
         text-align: center;
         font-size: large;
         line-height: calc(2);
-        width: 75px;
-        height: 75px;
     }
     }

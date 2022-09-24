@@ -6,6 +6,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
   <!-- Comienzo de encabezado -->
   <title>Paru Inkas Sushi & Grill - Contacto</title>
 </head>
@@ -31,37 +34,38 @@
       <img src="../img/LOCAL OLIVOS.jpg" alt="local olivos">
       <img src="../img/LOCAL PAMPA.jpg" alt="local pampa">
       <img src="../img/LOCAL RECOLETA.jpg" alt="local recoleta">
+      <img src="../img/LOCAL CERVINO.jpg" alt="local cervino">
     </section>
     <section>
       <h4>Formulario de Contacto</h4>
     </section>
     <!-- Formulario contacto -->
-    <section class="sectionform">
+    <section>
       <article>
         <form action="#">
         <div>
           <label for="nombre">
           Nombre
           </label>
-          <input type="text" id="nombre" placeholder="Nombre">
+          <input type="text" id="nombre" placeholder="Nombre"/>
         </div>
         <div>
           <label for="apellido">
           Apellido
           </label>
-          <input type="text" id="apellido" placeholder="Apellido">
+          <input type="text" id="apellido" placeholder="Apellido"/>
         </div>
         <div>
           <label for="telefono">
           Telefono
           </label>
-          <input type="tel" id="telefono" placeholder="Ingrese su telefono" maxlength="10" />
+          <input type="tel" id="telefono" placeholder="Ingrese su telefono" maxlength="10"/>
         </div>
         <div>
           <label for="mail">
           E-mail
           </label>
-          <input type="email" id="mail" placeholder="Ingrese su email" />
+          <input type="email" id="mail" placeholder="Ingrese su email"/>
         </div>
         <div>
           <label>
@@ -81,9 +85,9 @@
           Ya nos conocias ?
           </label>
             <span>Si</span>
-          <input type="radio" name="opcion" value="Si" />
+          <input type="radio" name="opcion" value="Si"/>
             <span>No</span>
-          <input type="radio" name="opcion" value="No" />
+          <input type="radio" name="opcion" value="No"/>
         </div>
         <div>
           <label>
@@ -99,11 +103,11 @@
           <label for="comentarios">
           Algun comentario extra que quieras dejarnos ?
           </label>
-          <textarea id="comentarios" rows="10" cols="50" class="textarea"></textarea>
+          <textarea id="comentarios" rows="10" cols="50" class="textarea" ></textarea>
         </div>
         <div>
-          <input type="submit" />
-          <input type="reset" />
+          <button type="button" class="btn btn-info">Submit</button>
+          <button type="button" class="btn btn-info">Reset</button>
         </div>
         </form>
       </article>
