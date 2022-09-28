@@ -1,4 +1,3 @@
-
 /* Diseño responsive */
 @media screen and (min-width: 320px) {
     body{
@@ -10,17 +9,18 @@
         position: fixed;
         top: 0;
         left: 0;
+        z-index: 20;
     }
     
     /*Menu links*/
     nav{
         display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
+        justify-content: center;
+        margin-bottom: 100px;
     }
     
     a:visited{
-        color: rgb(17, 17, 153, 0.473)
+        color: rgba(218, 218, 231, 0.473)
     }
     
     
@@ -74,6 +74,11 @@
         border: solid 5px  #000;
     }     
     
+    .img{
+        vertical-align: middle;
+        border-style: none;
+        max-width: 100%;
+    } 
     /* imagenes carta */
     .carta{
         margin-top: 100px;
@@ -136,6 +141,7 @@
         position: fixed;
         top: 0;
         left: 0;
+        z-index: 20;
     }
     /* Titulo */
     header h3{
@@ -191,7 +197,6 @@
         font-size: large;
         font-style: italic;
         color: rgb(143, 127, 87);
-        
         font-size: large; 
     }
     
