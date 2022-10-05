@@ -1,0 +1,120 @@
+/*Variables*/
+body {
+  background-image: url(../img/charcoal.gif);
+}
+body header {
+  text-align: center;
+}
+body header img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+body header h3 {
+  margin-top: 25px;
+  border: solid 5px rgb(143, 127, 87);
+  text-align: center;
+  font-style: italic;
+  color: rgb(143, 127, 87);
+  text-shadow: 1px 1px rgb(247, 244, 241);
+  font-size: xx-large;
+  position: relative;
+  margin-bottom: 50px;
+  width: auto;
+  margin-left: 150PX;
+  margin-right: 150px;
+}
+body header nav {
+  display: flex;
+  justify-content: center;
+}
+body header nav ul {
+  font-style: italic;
+  color: rgb(143, 127, 87);
+  line-height: 2;
+  font-size: larger;
+  align-items: center;
+  display: grid;
+}
+body header nav ul li {
+  color: rgb(143, 127, 87);
+}
+body header nav ul a {
+  color: rgb(143, 127, 87);
+}
+body header nav ul a:visited {
+  color: rgba(206, 206, 216, 0.473);
+}
+body header nav ul a:hover {
+  color: rgb(143, 127, 87);
+  text-shadow: 1px 1px rgb(247, 244, 241);
+}
+body header nav ul a a:active {
+  color: #000;
+  text-shadow: rgb(247, 244, 241);
+}
+body header main {
+  font-style: italic;
+  text-align: center;
+  font-size: large;
+}
+body header main article {
+  color: rgb(143, 127, 87);
+}
+body header main article p {
+  background-color: #333;
+  border: solid 5px #000;
+}
+body section {
+  align-items: center;
+}
+body section img {
+  margin-top: 100px;
+  border-radius: 50px;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+  transform: rotate(15deg);
+}
+body footer {
+  color: rgb(143, 127, 87);
+  margin-top: 150px;
+  font-style: italic;
+  font-size: large;
+  line-height: 2;
+  text-align: center;
+}
+body footer section {
+  color: rgb(143, 127, 87);
+}
+body footer section img {
+  width: 90px;
+  height: 75px;
+  transform: rotate(0);
+}
+body footer ul {
+  font-style: italic;
+  color: rgb(143, 127, 87);
+  line-height: 2;
+  font-size: larger;
+  align-items: center;
+  display: grid;
+}
+body footer ul li {
+  color: rgb(143, 127, 87);
+}
+body footer ul a {
+  color: rgb(143, 127, 87);
+}
+body footer ul a:visited {
+  color: rgba(206, 206, 216, 0.473);
+}
+body footer ul a:hover {
+  color: rgb(143, 127, 87);
+  text-shadow: 1px 1px rgb(247, 244, 241);
+}
+body footer ul a a:active {
+  color: #000;
+  text-shadow: rgb(247, 244, 241);
+}/*# sourceMappingURL=estilo.css.map */
