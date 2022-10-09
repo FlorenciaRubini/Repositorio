@@ -1,95 +1,206 @@
 /*Variables*/
-body {
-  background-image: url(../img/charcoal.gif); }
-  body header {
-    text-align: center; }
-    body header img {
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 5; }
-    body header h3 {
-      margin-top: 25px;
-      border: solid 5px #8f7f57;
-      text-align: center;
-      font-style: italic;
+@media screen and (min-width: 320px) {
+  body {
+    background-image: url(../img/charcoal.gif); }
+    body header {
+      text-align: center; }
+      body header img {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 5; }
+      body header h3 {
+        margin-top: 100px;
+        border: solid 5px #8f7f57;
+        text-align: center;
+        font-style: italic;
+        color: #8f7f57;
+        text-shadow: 1px 1px #f7f4f1;
+        font-size: xx-large;
+        position: relative;
+        margin-bottom: 50px;
+        margin-left: 25px;
+        margin-right: 25px;
+        width: auto; }
+      body header nav {
+        display: flex;
+        justify-content: center; }
+        body header nav ul {
+          font-style: italic;
+          color: #8f7f57;
+          line-height: calc(2);
+          font-size: larger;
+          align-items: center;
+          display: grid; }
+          body header nav ul li {
+            color: #8f7f57; }
+          body header nav ul a {
+            color: #8f7f57; }
+            body header nav ul a:visited {
+              color: rgba(206, 206, 216, 0.473); }
+            body header nav ul a:hover {
+              color: #8f7f57;
+              text-shadow: 1px 1px #f7f4f1; }
+            body header nav ul a a:active {
+              color: #000;
+              text-shadow: #f7f4f1; }
+      body header main {
+        font-style: italic;
+        text-align: center;
+        font-size: large; }
+        body header main article {
+          color: #8f7f57; }
+          body header main article p {
+            background-color: #333;
+            border: solid 5px #000;
+            color: #8f7f57; }
+    body section {
+      align-items: center; }
+      body section img {
+        margin-top: 50px;
+        margin-left: 25px;
+        border-radius: 50px;
+        align-items: center;
+        height: 200px;
+        width: 250px; }
+        body section img:hover {
+          transform: rotate(15deg); }
+    body footer {
       color: #8f7f57;
-      text-shadow: 1px 1px #f7f4f1;
-      font-size: xx-large;
-      position: relative;
-      margin-bottom: 50px;
-      width: auto;
-      margin-left: 150PX;
-      margin-right: 150px; }
-    body header nav {
-      display: flex;
-      justify-content: center; }
-      body header nav ul {
+      margin-top: 150px;
+      font-style: italic;
+      font-size: medium;
+      line-height: calc(2);
+      text-align: center; }
+      body footer section {
+        color: #8f7f57; }
+        body footer section img {
+          width: 90px;
+          height: 75px;
+          transform: rotate(0); }
+      body footer ul {
         font-style: italic;
         color: #8f7f57;
         line-height: calc(2);
         font-size: larger;
         align-items: center;
         display: grid; }
-        body header nav ul li {
+        body footer ul li {
           color: #8f7f57; }
-        body header nav ul a {
+        body footer ul a {
           color: #8f7f57; }
-          body header nav ul a:visited {
+          body footer ul a:visited {
             color: rgba(206, 206, 216, 0.473); }
-          body header nav ul a:hover {
+          body footer ul a:hover {
             color: #8f7f57;
             text-shadow: 1px 1px #f7f4f1; }
-          body header nav ul a a:active {
+          body footer ul a a:active {
             color: #000;
-            text-shadow: #f7f4f1; }
-    body header main {
-      font-style: italic;
-      text-align: center;
-      font-size: large; }
-      body header main article {
-        color: #8f7f57; }
-        body header main article p {
-          background-color: #333;
-          border: solid 5px #000; }
-  body section {
-    align-items: center; }
-    body section img {
-      margin-top: 100px;
-      border-radius: 50px;
-      align-items: center;
-      height: 200px;
-      width: 300px;
-      transform: rotate(15deg); }
-  body footer {
-    color: #8f7f57;
-    margin-top: 150px;
-    font-style: italic;
-    font-size: large;
-    line-height: calc(2);
-    text-align: center; }
-    body footer section {
-      color: #8f7f57; }
-      body footer section img {
-        width: 90px;
-        height: 75px;
-        transform: rotate(0); }
-    body footer ul {
-      font-style: italic;
-      color: #8f7f57;
-      line-height: calc(2);
-      font-size: larger;
-      align-items: center;
-      display: grid; }
-      body footer ul li {
-        color: #8f7f57; }
-      body footer ul a {
-        color: #8f7f57; }
-        body footer ul a:visited {
-          color: rgba(206, 206, 216, 0.473); }
-        body footer ul a:hover {
+            text-shadow: #f7f4f1; } }
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(../img/charcoal.gif); }
+    body header {
+      text-align: center; }
+      body header img {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 5; }
+      body header h3 {
+        margin-top: 25px;
+        border: solid 5px #8f7f57;
+        text-align: center;
+        font-style: italic;
+        color: #8f7f57;
+        text-shadow: 1px 1px #f7f4f1;
+        font-size: xx-large;
+        position: relative;
+        margin-bottom: 50px;
+        width: auto;
+        margin-left: 150PX;
+        margin-right: 150px; }
+      body header nav {
+        display: flex;
+        justify-content: center; }
+        body header nav ul {
+          font-style: italic;
           color: #8f7f57;
-          text-shadow: 1px 1px #f7f4f1; }
-        body footer ul a a:active {
-          color: #000;
-          text-shadow: #f7f4f1; }
+          line-height: calc(2);
+          font-size: larger;
+          align-items: center;
+          display: grid; }
+          body header nav ul li {
+            color: #8f7f57; }
+          body header nav ul a {
+            color: #8f7f57; }
+            body header nav ul a:visited {
+              color: rgba(206, 206, 216, 0.473); }
+            body header nav ul a:hover {
+              color: #8f7f57;
+              text-shadow: 1px 1px #f7f4f1; }
+            body header nav ul a a:active {
+              color: #000;
+              text-shadow: #f7f4f1; }
+      body header main {
+        font-style: italic;
+        text-align: center;
+        font-size: large; }
+        body header main article {
+          color: #8f7f57; }
+          body header main article p {
+            background-color: #333;
+            border: solid 5px #000;
+            color: #8f7f57; }
+    body section {
+      align-items: center; }
+      body section img {
+        margin-top: 100px;
+        border-radius: 50px;
+        align-items: center;
+        height: 200px;
+        width: 300px; }
+        body section img:hover {
+          transform: rotate(15deg); }
+    body footer {
+      color: #8f7f57;
+      margin-top: 150px;
+      font-style: italic;
+      font-size: medium;
+      line-height: calc(2);
+      text-align: center; }
+      body footer section {
+        color: #8f7f57; }
+        body footer section img {
+          width: 90px;
+          height: 75px;
+          transform: rotate(0); }
+      body footer nav {
+        display: flex;
+        justify-content: center; }
+        body footer nav ul {
+          font-style: italic;
+          line-height: calc(2);
+          font-size: larger;
+          align-items: center;
+          display: grid; }
+          body footer nav ul li {
+            color: #8f7f57; }
+          body footer nav ul a {
+            color: #8f7f57; }
+            body footer nav ul a:visited {
+              color: rgba(206, 206, 216, 0.473); }
+            body footer nav ul a:hover {
+              color: #8f7f57;
+              text-shadow: 1px 1px #f7f4f1; }
+            body footer nav ul a a:active {
+              color: #000;
+              text-shadow: #f7f4f1; } }
+
+body {
+  background-image: url(../img/charcoal.gif); }
+  body header {
+    text-align: center; }
+    body header img {
+      align-items: center; }
