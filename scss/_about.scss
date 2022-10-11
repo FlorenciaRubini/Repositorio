@@ -1,13 +1,268 @@
+/*Variables*/
+$color-fuente: rgb(143, 127, 87);
+
+@media screen and (min-width: 320px){
 body{
     background-image: url(../img/charcoal.gif);
     
         header{
         text-align: center;
         
-            img{align-items: center;
+            img{
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 5;
             }
+            
+            h3{
+            margin-top: 100px;
+            border: solid 5px $color-fuente;
+            text-align: center;
+            align-items: center;
+            font-style: italic;
+            color: $color-fuente;
+            text-shadow: 1px 1px rgb(247, 244, 241);
+            font-size: xx-large;
+            position: relative;
+            margin-left: 50px;
+            margin-right: 0px;
             }
+        nav{
+        display: flex;
+        justify-content: center;
+        
+            ul{
+            font-style: italic;
+            color: $color-fuente ;
+            line-height: calc(2);
+            font-size: larger;
+            align-items: center;
+            display: grid;
+            
+                li{
+                color: $color-fuente;}
+                    a{  
+                    color: $color-fuente;
+                        &:visited{
+                        color: rgba(206, 206, 216, 0.473);
+                        }    
+                        &:hover {
+                        color: $color-fuente;
+                        text-shadow: 1px 1px rgb(247, 244, 241);
+                        }
+                        a:active {
+                        color: #000;
+                        text-shadow: rgb(247, 244, 241);
+                        }
+                    }
+                }
+            }
+        }
+        main{
+        font-style: italic;
+        text-align: center;
+        font-size: large;
+            h3{
+            margin-top: 50px;
+            text-align: center;
+            font-style: italic;
+            color: $color-fuente;
+            text-shadow: 1px 1px rgb(247, 244, 241);
+            font-size: xx-large;  
+            position: relative;
+            }
+            section{
+            align-items: center;
+                img{
+                align-items: center;
+                margin-left: 20px;
+                margin-right: 20px;
+                width: 375px;
+                height: 300px;
+                margin-bottom: 100px;
+                }
+            }
+            article{
+            text-align: center;
+            position: relative;
+            max-width: fit-content;
+                p{
+                justify-content: center;
+                color:$color-fuente;
+                }
+            }
+        }
+    footer{
+    color: $color-fuente;
+    margin-top: 150px;
+    font-style: italic;
+    font-size: medium;
+    line-height: calc(2);
+    text-align: center;
+        section{
+        color: $color-fuente;
+            img{
+            width: 90px;
+            height: 75px;
+            transform: rotate(0);
+            }
+        }
+        ul{
+        font-style: italic;
+        color: $color-fuente ;
+        line-height: calc(2);
+        font-size: larger;
+        align-items: center;
+        display: grid;
+            li{
+            color: $color-fuente;
+            }
+            a{  
+            color: $color-fuente;
+            &:visited{
+            color: rgba(206, 206, 216, 0.473);
+            }    
+            &:hover {
+            color: $color-fuente;
+            text-shadow: 1px 1px rgb(247, 244, 241);
+            }
+            a:active {
+            color: #000;
+            text-shadow: rgb(247, 244, 241);
+            }
+        }
+    }
+
+@media screen and (min-width: 720px) {
+body{
+    background-image: url(../img/charcoal.gif);
     
-
-
-}
+        header{
+        text-align: center;
+        
+            img{
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 5;
+            }
+            
+            h3{
+            margin-top: 100px;
+            border: solid 5px $color-fuente;
+            text-align: center;
+            font-style: italic;
+            color: $color-fuente;
+            text-shadow: 1px 1px rgb(247, 244, 241);
+            font-size: xx-large;  
+            position: relative;
+            margin-bottom: 50px;
+            margin-left: 25px;
+            margin-right: 25px;
+            width: auto;
+            }
+            
+            nav{
+            display: flex;
+            justify-content: center;
+            
+                ul{
+                font-style: italic;
+                color: $color-fuente ;
+                line-height: calc(2);
+                font-size: larger;
+                align-items: center;
+                display: grid;
+                
+                    li{
+                    color: $color-fuente;}
+                        a{  
+                        color: $color-fuente;
+                            &:visited{
+                            color: rgba(206, 206, 216, 0.473);
+                            }    
+                            &:hover {
+                            color: $color-fuente;
+                            text-shadow: 1px 1px rgb(247, 244, 241);
+                            }
+                            a:active {
+                            color: #000;
+                            text-shadow: rgb(247, 244, 241);
+                            }
+                        }
+                    }
+                }
+            }
+        }}
+        main{
+        font-style: italic;
+        text-align: center;
+        font-size: large;
+            h3{
+            margin-top: 50px;
+            text-align: center;
+            font-style: italic;
+            color: $color-fuente;
+            text-shadow: 1px 1px rgb(247, 244, 241);
+            font-size: xx-large;  
+            position: relative;
+            }
+            section{
+            align-items: center;
+                img{
+                width: 375px;
+                height: 300px;
+                margin-bottom: 100px;
+                }
+            }
+            article{
+            text-align: center;
+            position: relative;
+                p{
+                justify-content: center;
+                color:$color-fuente;
+                }
+            }
+        }
+    footer{
+    color: $color-fuente;
+    margin-top: 150px;
+    font-style: italic;
+    font-size: medium;
+    line-height: calc(2);
+    text-align: center;
+        section{
+        color: $color-fuente;
+            img{
+            width: 90px;
+            height: 75px;
+            transform: rotate(0);
+            }
+        }
+        ul{
+        font-style: italic;
+        color: $color-fuente ;
+        line-height: calc(2);
+        font-size: larger;
+        align-items: center;
+        display: grid;
+            li{
+            color: $color-fuente;
+            }
+            a{  
+            color: $color-fuente;
+                &:visited{
+                color: rgba(206, 206, 216, 0.473);
+                }    
+                &:hover {
+                color: $color-fuente;
+                text-shadow: 1px 1px rgb(247, 244, 241);
+                }
+                a:active {
+                color: #000;
+                text-shadow: rgb(247, 244, 241);
+                }
+            }
+        }
+    }}}}

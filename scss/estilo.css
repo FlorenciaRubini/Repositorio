@@ -13,7 +13,7 @@
     z-index: 5;
   }
   body header h3 {
-    margin-top: 25px;
+    margin-top: 100px;
     border: solid 5px rgb(143, 127, 87);
     text-align: center;
     font-style: italic;
@@ -22,6 +22,8 @@
     font-size: xx-large;
     position: relative;
     margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
     width: auto;
   }
   body header nav {
@@ -70,11 +72,12 @@
     align-items: center;
   }
   body section img {
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-left: 25px;
     border-radius: 50px;
     align-items: center;
-    height: 200px;
-    width: 300px;
+    height: 5px;
+    width: 5px;
   }
   body section img:hover {
     transform: rotate(15deg);
@@ -197,8 +200,137 @@
     margin-top: 100px;
     border-radius: 50px;
     align-items: center;
-    height: 200px;
-    width: 300px;
+    height: 100px;
+    width: 100px;
+  }
+  body section img:hover {
+    transform: rotate(15deg);
+  }
+  body footer {
+    color: rgb(143, 127, 87);
+    margin-top: 150px;
+    font-style: italic;
+    font-size: medium;
+    line-height: 2;
+    text-align: center;
+  }
+  body footer section {
+    color: rgb(143, 127, 87);
+  }
+  body footer section img {
+    width: 90px;
+    height: 75px;
+    transform: rotate(0);
+  }
+  body footer nav {
+    display: flex;
+    justify-content: center;
+  }
+  body footer nav ul {
+    font-style: italic;
+    line-height: 2;
+    font-size: larger;
+    align-items: center;
+    display: grid;
+  }
+  body footer nav ul li {
+    color: rgb(143, 127, 87);
+  }
+  body footer nav ul a {
+    color: rgb(143, 127, 87);
+  }
+  body footer nav ul a:visited {
+    color: rgba(206, 206, 216, 0.473);
+  }
+  body footer nav ul a:hover {
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+  }
+  body footer nav ul a a:active {
+    color: #000;
+    text-shadow: rgb(247, 244, 241);
+  }
+}
+/*Variables*/
+@media screen and (min-width: 320px) {
+  body {
+    background-image: url(../img/charcoal.gif);
+  }
+  body header {
+    text-align: center;
+  }
+  body header img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+  }
+  body header h3 {
+    margin-top: 100px;
+    border: solid 5px rgb(143, 127, 87);
+    text-align: center;
+    font-style: italic;
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+    font-size: xx-large;
+    position: relative;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: auto;
+  }
+  body header nav {
+    display: flex;
+    justify-content: center;
+  }
+  body header nav ul {
+    font-style: italic;
+    color: rgb(143, 127, 87);
+    line-height: 2;
+    font-size: larger;
+    align-items: center;
+    display: grid;
+  }
+  body header nav ul li {
+    color: rgb(143, 127, 87);
+  }
+  body header nav ul a {
+    color: rgb(143, 127, 87);
+  }
+  body header nav ul a:visited {
+    color: rgba(206, 206, 216, 0.473);
+  }
+  body header nav ul a:hover {
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+  }
+  body header nav ul a a:active {
+    color: #000;
+    text-shadow: rgb(247, 244, 241);
+  }
+  body header main {
+    font-style: italic;
+    text-align: center;
+    font-size: large;
+  }
+  body header main article {
+    color: rgb(143, 127, 87);
+  }
+  body header main article p {
+    background-color: #333;
+    border: solid 5px #000;
+    color: rgb(143, 127, 87);
+  }
+  body section {
+    align-items: center;
+  }
+  body section img {
+    margin-top: 50px;
+    margin-left: 25px;
+    border-radius: 50px;
+    align-items: center;
+    height: 5px;
+    width: 5px;
   }
   body section img:hover {
     transform: rotate(15deg);
@@ -241,6 +373,486 @@
     text-shadow: 1px 1px rgb(247, 244, 241);
   }
   body footer ul a a:active {
+    color: #000;
+    text-shadow: rgb(247, 244, 241);
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(../img/charcoal.gif);
+  }
+  body header {
+    text-align: center;
+  }
+  body header img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+  }
+  body header h3 {
+    margin-top: 25px;
+    border: solid 5px rgb(143, 127, 87);
+    text-align: center;
+    font-style: italic;
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+    font-size: xx-large;
+    position: relative;
+    margin-bottom: 50px;
+    width: auto;
+    margin-left: 150PX;
+    margin-right: 150px;
+  }
+  body header nav {
+    display: flex;
+    justify-content: center;
+  }
+  body header nav ul {
+    font-style: italic;
+    color: rgb(143, 127, 87);
+    line-height: 2;
+    font-size: larger;
+    align-items: center;
+    display: grid;
+  }
+  body header nav ul li {
+    color: rgb(143, 127, 87);
+  }
+  body header nav ul a {
+    color: rgb(143, 127, 87);
+  }
+  body header nav ul a:visited {
+    color: rgba(206, 206, 216, 0.473);
+  }
+  body header nav ul a:hover {
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+  }
+  body header nav ul a a:active {
+    color: #000;
+    text-shadow: rgb(247, 244, 241);
+  }
+  body header main {
+    font-style: italic;
+    text-align: center;
+    font-size: large;
+  }
+  body header main article {
+    color: rgb(143, 127, 87);
+  }
+  body header main article p {
+    background-color: #333;
+    border: solid 5px #000;
+    color: rgb(143, 127, 87);
+  }
+  body section {
+    align-items: center;
+  }
+  body section img {
+    margin-top: 100px;
+    border-radius: 50px;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+  }
+  body section img:hover {
+    transform: rotate(15deg);
+  }
+  body footer {
+    color: rgb(143, 127, 87);
+    margin-top: 150px;
+    font-style: italic;
+    font-size: medium;
+    line-height: 2;
+    text-align: center;
+  }
+  body footer section {
+    color: rgb(143, 127, 87);
+  }
+  body footer section img {
+    width: 90px;
+    height: 75px;
+    transform: rotate(0);
+  }
+  body footer nav {
+    display: flex;
+    justify-content: center;
+  }
+  body footer nav ul {
+    font-style: italic;
+    line-height: 2;
+    font-size: larger;
+    align-items: center;
+    display: grid;
+  }
+  body footer nav ul li {
+    color: rgb(143, 127, 87);
+  }
+  body footer nav ul a {
+    color: rgb(143, 127, 87);
+  }
+  body footer nav ul a:visited {
+    color: rgba(206, 206, 216, 0.473);
+  }
+  body footer nav ul a:hover {
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+  }
+  body footer nav ul a a:active {
+    color: #000;
+    text-shadow: rgb(247, 244, 241);
+  }
+}
+/*Variables*/
+@media screen and (min-width: 320px) {
+  body {
+    background-image: url(../img/charcoal.gif);
+  }
+  body header {
+    text-align: center;
+  }
+  body header img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+  }
+  body header h3 {
+    margin-top: 100px;
+    border: solid 5px rgb(143, 127, 87);
+    text-align: center;
+    font-style: italic;
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+    font-size: xx-large;
+    position: relative;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: auto;
+  }
+  body header nav {
+    display: flex;
+    justify-content: center;
+  }
+  body header nav ul {
+    font-style: italic;
+    color: rgb(143, 127, 87);
+    line-height: 2;
+    font-size: larger;
+    align-items: center;
+    display: grid;
+  }
+  body header nav ul li {
+    color: rgb(143, 127, 87);
+  }
+  body header nav ul a {
+    color: rgb(143, 127, 87);
+  }
+  body header nav ul a:visited {
+    color: rgba(206, 206, 216, 0.473);
+  }
+  body header nav ul a:hover {
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+  }
+  body header nav ul a a:active {
+    color: #000;
+    text-shadow: rgb(247, 244, 241);
+  }
+  body header main {
+    color: rgb(143, 127, 87);
+  }
+  body header main section {
+    text-align: center;
+  }
+  body header main section img {
+    height: 100px;
+    width: 150px;
+  }
+  body header main h3 {
+    margin-top: 100px;
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+    font-size: xx-large;
+  }
+  body header main section {
+    color: rgb(143, 127, 87);
+  }
+  body header main section form {
+    text-align: center;
+    color: rgb(143, 127, 87);
+  }
+  body header main section form div {
+    font-size: x-large;
+  }
+  body header main section form div label {
+    color: rgb(143, 127, 87);
+  }
+}
+/*Variables*/
+@media screen and (min-width: 320px) {
+  body {
+    background-image: url(../img/charcoal.gif);
+  }
+  body header {
+    text-align: center;
+  }
+  body header img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+  }
+  body header h3 {
+    margin-top: 100px;
+    border: solid 5px rgb(143, 127, 87);
+    text-align: center;
+    align-items: center;
+    font-style: italic;
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+    font-size: xx-large;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 0px;
+  }
+  body header nav {
+    display: flex;
+    justify-content: center;
+  }
+  body header nav ul {
+    font-style: italic;
+    color: rgb(143, 127, 87);
+    line-height: 2;
+    font-size: larger;
+    align-items: center;
+    display: grid;
+  }
+  body header nav ul li {
+    color: rgb(143, 127, 87);
+  }
+  body header nav ul a {
+    color: rgb(143, 127, 87);
+  }
+  body header nav ul a:visited {
+    color: rgba(206, 206, 216, 0.473);
+  }
+  body header nav ul a:hover {
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+  }
+  body header nav ul a a:active {
+    color: #000;
+    text-shadow: rgb(247, 244, 241);
+  }
+  body main {
+    font-style: italic;
+    text-align: center;
+    font-size: large;
+  }
+  body main h3 {
+    margin-top: 50px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+    font-size: xx-large;
+    position: relative;
+  }
+  body main section {
+    align-items: center;
+  }
+  body main section img {
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 375px;
+    height: 300px;
+    margin-bottom: 100px;
+  }
+  body main article {
+    text-align: center;
+    position: relative;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  body main article p {
+    justify-content: center;
+    color: rgb(143, 127, 87);
+  }
+  body footer {
+    color: rgb(143, 127, 87);
+    margin-top: 150px;
+    font-style: italic;
+    font-size: medium;
+    line-height: 2;
+    text-align: center;
+  }
+  body footer section {
+    color: rgb(143, 127, 87);
+  }
+  body footer section img {
+    width: 90px;
+    height: 75px;
+    transform: rotate(0);
+  }
+  body footer ul {
+    font-style: italic;
+    color: rgb(143, 127, 87);
+    line-height: 2;
+    font-size: larger;
+    align-items: center;
+    display: grid;
+  }
+  body footer ul li {
+    color: rgb(143, 127, 87);
+  }
+  body footer ul a {
+    color: rgb(143, 127, 87);
+  }
+  body footer ul a:visited {
+    color: rgba(206, 206, 216, 0.473);
+  }
+  body footer ul a:hover {
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+  }
+  body footer ul a a:active {
+    color: #000;
+    text-shadow: rgb(247, 244, 241);
+  }
+}
+@media screen and (min-width: 320px) and (min-width: 720px) {
+  body footer body {
+    background-image: url(../img/charcoal.gif);
+  }
+  body footer body header {
+    text-align: center;
+  }
+  body footer body header img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+  }
+  body footer body header h3 {
+    margin-top: 100px;
+    border: solid 5px rgb(143, 127, 87);
+    text-align: center;
+    font-style: italic;
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+    font-size: xx-large;
+    position: relative;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: auto;
+  }
+  body footer body header nav {
+    display: flex;
+    justify-content: center;
+  }
+  body footer body header nav ul {
+    font-style: italic;
+    color: rgb(143, 127, 87);
+    line-height: 2;
+    font-size: larger;
+    align-items: center;
+    display: grid;
+  }
+  body footer body header nav ul li {
+    color: rgb(143, 127, 87);
+  }
+  body footer body header nav ul a {
+    color: rgb(143, 127, 87);
+  }
+  body footer body header nav ul a:visited {
+    color: rgba(206, 206, 216, 0.473);
+  }
+  body footer body header nav ul a:hover {
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+  }
+  body footer body header nav ul a a:active {
+    color: #000;
+    text-shadow: rgb(247, 244, 241);
+  }
+}
+@media screen and (min-width: 320px) {
+  body footer main {
+    font-style: italic;
+    text-align: center;
+    font-size: large;
+  }
+  body footer main h3 {
+    margin-top: 50px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+    font-size: xx-large;
+    position: relative;
+  }
+  body footer main section {
+    align-items: center;
+  }
+  body footer main section img {
+    width: 375px;
+    height: 300px;
+    margin-bottom: 100px;
+  }
+  body footer main article {
+    text-align: center;
+    position: relative;
+  }
+  body footer main article p {
+    justify-content: center;
+    color: rgb(143, 127, 87);
+  }
+}
+@media screen and (min-width: 320px) {
+  body footer footer {
+    color: rgb(143, 127, 87);
+    margin-top: 150px;
+    font-style: italic;
+    font-size: medium;
+    line-height: 2;
+    text-align: center;
+  }
+  body footer footer section {
+    color: rgb(143, 127, 87);
+  }
+  body footer footer section img {
+    width: 90px;
+    height: 75px;
+    transform: rotate(0);
+  }
+  body footer footer ul {
+    font-style: italic;
+    color: rgb(143, 127, 87);
+    line-height: 2;
+    font-size: larger;
+    align-items: center;
+    display: grid;
+  }
+  body footer footer ul li {
+    color: rgb(143, 127, 87);
+  }
+  body footer footer ul a {
+    color: rgb(143, 127, 87);
+  }
+  body footer footer ul a:visited {
+    color: rgba(206, 206, 216, 0.473);
+  }
+  body footer footer ul a:hover {
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+  }
+  body footer footer ul a a:active {
     color: #000;
     text-shadow: rgb(247, 244, 241);
   }
