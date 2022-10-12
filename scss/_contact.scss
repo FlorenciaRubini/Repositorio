@@ -1,5 +1,6 @@
 /*Variables*/
 $color-fuente: rgb(143, 127, 87);
+
 @media screen and (min-width: 320px){
 body{
 background-image: url(../img/charcoal.gif);
@@ -52,11 +53,11 @@ background-image: url(../img/charcoal.gif);
                     }
                 }
             }
-        }
+        }}
 main{
-        color: $color-fuente;
+        color: antiquewhite;
         section{
-        text-align: center;
+        color: antiquewhite;
             img{
             height: 100px;
             width: 150px;
@@ -71,11 +72,20 @@ main{
         section{
         color: $color-fuente;
             form{
-            text-align: center;
-            color: $color-fuente;
+            border: 2px solid $color-fuente;
+            width: 650px;
+            margin: auto;
+            text-align: left;
                 div{
+                padding-bottom: 5px;
+                color: $color-fuente;
                 font-size: x-large;
                     label{
-                    color: $color-fuente;}}}}}
+                    color: $color-fuente;
+                    }
+                    input{
+                    border: solid 3px $color-fuente;}}}}}
+                    select{
+                    border: solid 3px $color-fuente;}}           
         }
-        }}
+        

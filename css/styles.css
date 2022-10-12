@@ -49,6 +49,7 @@
         text-align: center;
         font-size: large; }
         body header main article {
+          width: 300px;
           color: #8f7f57; }
           body header main article p {
             background-color: #333;
@@ -118,7 +119,6 @@
         font-size: xx-large;
         position: relative;
         margin-bottom: 50px;
-        width: auto;
         margin-left: 150PX;
         margin-right: 150px; }
       body header nav {
@@ -146,13 +146,16 @@
       body header main {
         font-style: italic;
         text-align: center;
-        font-size: large; }
+        font-size: large;
+        width: 300px; }
         body header main article {
-          color: #8f7f57; }
+          color: #8f7f57;
+          width: 300px; }
           body header main article p {
             background-color: #333;
             border: solid 5px #000;
-            color: #8f7f57; }
+            color: #8f7f57;
+            width: 300px; }
     body section {
       align-items: center; }
       body section img {
@@ -444,27 +447,35 @@
             body header nav ul a a:active {
               color: #000;
               text-shadow: #f7f4f1; }
-      body header main {
+    body main {
+      color: antiquewhite; }
+      body main section {
+        color: antiquewhite; }
+        body main section img {
+          height: 100px;
+          width: 150px; }
+      body main h3 {
+        margin-top: 100px;
+        color: #8f7f57;
+        text-shadow: 1px 1px #f7f4f1;
+        font-size: xx-large; }
+      body main section {
         color: #8f7f57; }
-        body header main section {
-          text-align: center; }
-          body header main section img {
-            height: 100px;
-            width: 150px; }
-        body header main h3 {
-          margin-top: 100px;
-          color: #8f7f57;
-          text-shadow: 1px 1px #f7f4f1;
-          font-size: xx-large; }
-        body header main section {
-          color: #8f7f57; }
-          body header main section form {
-            text-align: center;
-            color: #8f7f57; }
-            body header main section form div {
-              font-size: x-large; }
-              body header main section form div label {
-                color: #8f7f57; } }
+        body main section form {
+          border: 2px solid #8f7f57;
+          width: 650px;
+          margin: auto;
+          text-align: left; }
+          body main section form div {
+            padding-bottom: 5px;
+            color: #8f7f57;
+            font-size: x-large; }
+            body main section form div label {
+              color: #8f7f57; }
+            body main section form div input {
+              border: solid 3px #8f7f57; }
+    body select {
+      border: solid 3px #8f7f57; } }
 
 /*Variables*/
 @media screen and (min-width: 320px) {
@@ -621,7 +632,8 @@
       body footer main {
         font-style: italic;
         text-align: center;
-        font-size: large; }
+        font-size: large;
+        width: 200px; }
         body footer main h3 {
           margin-top: 50px;
           text-align: center;
@@ -638,10 +650,12 @@
             margin-bottom: 100px; }
         body footer main article {
           text-align: center;
-          position: relative; }
+          position: relative;
+          width: 50px; }
           body footer main article p {
             justify-content: center;
-            color: #8f7f57; }
+            color: #8f7f57;
+            width: 200px; }
       body footer footer {
         color: #8f7f57;
         margin-top: 150px;

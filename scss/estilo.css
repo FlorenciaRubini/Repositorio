@@ -61,6 +61,7 @@
     font-size: large;
   }
   body header main article {
+    width: 300px;
     color: rgb(143, 127, 87);
   }
   body header main article p {
@@ -147,7 +148,6 @@
     font-size: xx-large;
     position: relative;
     margin-bottom: 50px;
-    width: auto;
     margin-left: 150PX;
     margin-right: 150px;
   }
@@ -184,14 +184,17 @@
     font-style: italic;
     text-align: center;
     font-size: large;
+    width: 300px;
   }
   body header main article {
     color: rgb(143, 127, 87);
+    width: 300px;
   }
   body header main article p {
     background-color: #333;
     border: solid 5px #000;
     color: rgb(143, 127, 87);
+    width: 300px;
   }
   body section {
     align-items: center;
@@ -561,34 +564,44 @@
     color: #000;
     text-shadow: rgb(247, 244, 241);
   }
-  body header main {
-    color: rgb(143, 127, 87);
+  body main {
+    color: antiquewhite;
   }
-  body header main section {
-    text-align: center;
+  body main section {
+    color: antiquewhite;
   }
-  body header main section img {
+  body main section img {
     height: 100px;
     width: 150px;
   }
-  body header main h3 {
+  body main h3 {
     margin-top: 100px;
     color: rgb(143, 127, 87);
     text-shadow: 1px 1px rgb(247, 244, 241);
     font-size: xx-large;
   }
-  body header main section {
+  body main section {
     color: rgb(143, 127, 87);
   }
-  body header main section form {
-    text-align: center;
-    color: rgb(143, 127, 87);
+  body main section form {
+    border: 2px solid rgb(143, 127, 87);
+    width: 650px;
+    margin: auto;
+    text-align: left;
   }
-  body header main section form div {
+  body main section form div {
+    padding-bottom: 5px;
+    color: rgb(143, 127, 87);
     font-size: x-large;
   }
-  body header main section form div label {
+  body main section form div label {
     color: rgb(143, 127, 87);
+  }
+  body main section form div input {
+    border: solid 3px rgb(143, 127, 87);
+  }
+  body select {
+    border: solid 3px rgb(143, 127, 87);
   }
 }
 /*Variables*/
@@ -787,6 +800,7 @@
     font-style: italic;
     text-align: center;
     font-size: large;
+    width: 200px;
   }
   body footer main h3 {
     margin-top: 50px;
@@ -808,10 +822,12 @@
   body footer main article {
     text-align: center;
     position: relative;
+    width: 50px;
   }
   body footer main article p {
     justify-content: center;
     color: rgb(143, 127, 87);
+    width: 200px;
   }
 }
 @media screen and (min-width: 320px) {

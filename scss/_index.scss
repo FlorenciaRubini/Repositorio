@@ -65,6 +65,7 @@ body{
         text-align: center;
         font-size: large;
         article{
+            width: 300px;
             color: $color-fuente;
                 p{ 
                     background-color: #333;
@@ -154,7 +155,6 @@ body{
                 font-size: xx-large;  
                 position: relative;
                 margin-bottom: 50px;
-                width: auto;
                 margin-left: 150PX;
                 margin-right: 150px;
             }
@@ -193,12 +193,16 @@ body{
             font-style: italic;
             text-align: center;
             font-size: large;
+            width: 300px;
             article{
                 color: $color-fuente;
+                width: 300px;
                     p{ 
                         background-color: #333;
                         border: solid 5px #000;
                         color: $color-fuente;
+                        width: 300px;
+                        
                     }
                 }
             }
