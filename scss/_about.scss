@@ -199,7 +199,7 @@ body{
         font-style: italic;
         text-align: center;
         font-size: large;
-        width: 200px;
+        width: 50px;
             h3{
             margin-top: 50px;
             text-align: center;
@@ -220,11 +220,9 @@ body{
             article{
             text-align: center;
             position: relative;
-            width: 200px;
+            width: 100px;
                 p{
-                justify-content: center;
-                color:$color-fuente;
-                width: 200px;
+                color: $color-fuente;
                 }
             }
         }

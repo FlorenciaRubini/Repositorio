@@ -147,9 +147,13 @@
         font-style: italic;
         text-align: center;
         font-size: large;
-        width: 100px; }
+        width: 100px;
+        align-content: center;
+        padding: 20px; }
         body header main article {
+          padding: 20px;
           color: #8f7f57;
+          align-content: center;
           width: 100px; }
           body header main article p {
             background-color: #333;
@@ -598,7 +602,7 @@ footer {
           text-align: center;
           width: 500px; }
           body main section form div {
-            padding-bottom: 8px;
+            padding-bottom: 5px;
             color: #8f7f57;
             font-size: x-large; }
             body main section form div label {
@@ -618,7 +622,7 @@ footer {
             height: 300px; } }
 
 .comentario {
-  margin-top: 100px;
+  padding: 20px;
   width: 500px; }
 
 footer {
@@ -810,7 +814,7 @@ footer {
         font-style: italic;
         text-align: center;
         font-size: large;
-        width: 200px; }
+        width: 50px; }
         body footer main h3 {
           margin-top: 50px;
           text-align: center;
@@ -828,11 +832,9 @@ footer {
         body footer main article {
           text-align: center;
           position: relative;
-          width: 200px; }
+          width: 100px; }
           body footer main article p {
-            justify-content: center;
-            color: #8f7f57;
-            width: 200px; }
+            color: #8f7f57; }
       body footer footer {
         color: #8f7f57;
         margin-top: 150px;

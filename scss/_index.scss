@@ -194,8 +194,12 @@ body{
             text-align: center;
             font-size: large;
             width: 100px;
+            align-content: center;
+            padding: 20px;
             article{
+                padding: 20px;
                 color: $color-fuente;
+                align-content: center;
                 width: 100px;
                     p{ 
                         background-color: #333;

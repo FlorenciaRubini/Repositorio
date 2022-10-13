@@ -185,9 +185,13 @@
     text-align: center;
     font-size: large;
     width: 100px;
+    align-content: center;
+    padding: 20px;
   }
   body header main article {
+    padding: 20px;
     color: rgb(143, 127, 87);
+    align-content: center;
     width: 100px;
   }
   body header main article p {
@@ -755,7 +759,7 @@ footer ul a a:active {
     width: 500px;
   }
   body main section form div {
-    padding-bottom: 8px;
+    padding-bottom: 5px;
     color: rgb(143, 127, 87);
     font-size: x-large;
   }
@@ -781,7 +785,7 @@ footer ul a a:active {
   }
 }
 .comentario {
-  margin-top: 100px;
+  padding: 20px;
   width: 500px;
 }
 
@@ -1023,7 +1027,7 @@ footer ul a a:active {
     font-style: italic;
     text-align: center;
     font-size: large;
-    width: 200px;
+    width: 50px;
   }
   body footer main h3 {
     margin-top: 50px;
@@ -1045,12 +1049,10 @@ footer ul a a:active {
   body footer main article {
     text-align: center;
     position: relative;
-    width: 200px;
+    width: 100px;
   }
   body footer main article p {
-    justify-content: center;
     color: rgb(143, 127, 87);
-    width: 200px;
   }
 }
 @media screen and (min-width: 320px) {
