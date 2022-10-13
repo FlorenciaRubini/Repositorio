@@ -184,17 +184,17 @@
     font-style: italic;
     text-align: center;
     font-size: large;
-    width: 300px;
+    width: 100px;
   }
   body header main article {
     color: rgb(143, 127, 87);
-    width: 300px;
+    width: 100px;
   }
   body header main article p {
     background-color: #333;
     border: solid 5px #000;
     color: rgb(143, 127, 87);
-    width: 300px;
+    width: 100px;
   }
   body section {
     align-items: center;
@@ -579,31 +579,254 @@
     color: rgb(143, 127, 87);
     text-shadow: 1px 1px rgb(247, 244, 241);
     font-size: xx-large;
+    margin-bottom: 100px;
+    align-content: center;
   }
   body main section {
     color: rgb(143, 127, 87);
   }
   body main section form {
     border: 2px solid rgb(143, 127, 87);
-    width: 650px;
+    width: 400px;
     margin: auto;
-    text-align: left;
+    text-align: center;
   }
   body main section form div {
-    padding-bottom: 5px;
+    padding-bottom: 8px;
     color: rgb(143, 127, 87);
     font-size: x-large;
   }
   body main section form div label {
     color: rgb(143, 127, 87);
+    width: 120px;
+    float: left;
+    text-align: left;
+  }
+  body main section form div label span {
+    text-align: center;
   }
   body main section form div input {
     border: solid 3px rgb(143, 127, 87);
   }
-  body select {
+  body main section form div select {
     border: solid 3px rgb(143, 127, 87);
   }
+  body main section form textarea {
+    text-align: center;
+    padding-left: 150px;
+    width: 200px;
+    height: 150px;
+  }
 }
+.comentario {
+  align-items: center;
+  padding: 20px;
+}
+
+.comentarios {
+  margin-top: 150px;
+  text-align: center;
+  align-content: center;
+}
+
+footer {
+  color: rgb(143, 127, 87);
+  margin-top: 150px;
+  font-style: italic;
+  font-size: medium;
+  line-height: 2;
+  text-align: center;
+}
+footer section {
+  color: rgb(143, 127, 87);
+}
+footer section img {
+  width: 90px;
+  height: 75px;
+  transform: rotate(0);
+}
+footer ul {
+  font-style: italic;
+  color: rgb(143, 127, 87);
+  line-height: 2;
+  font-size: larger;
+  align-items: center;
+  display: grid;
+}
+footer ul li {
+  color: rgb(143, 127, 87);
+}
+footer ul a {
+  color: rgb(143, 127, 87);
+}
+footer ul a:visited {
+  color: rgba(206, 206, 216, 0.473);
+}
+footer ul a:hover {
+  color: rgb(143, 127, 87);
+  text-shadow: 1px 1px rgb(247, 244, 241);
+}
+footer ul a a:active {
+  color: #000;
+  text-shadow: rgb(247, 244, 241);
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(../img/charcoal.gif);
+  }
+  body header {
+    text-align: center;
+  }
+  body header img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+  }
+  body header h3 {
+    margin-top: 100px;
+    border: solid 5px rgb(143, 127, 87);
+    text-align: center;
+    font-style: italic;
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+    font-size: xx-large;
+    position: relative;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: auto;
+  }
+  body header nav {
+    display: flex;
+    justify-content: center;
+  }
+  body header nav ul {
+    font-style: italic;
+    color: rgb(143, 127, 87);
+    line-height: 2;
+    font-size: larger;
+    align-items: center;
+    display: grid;
+  }
+  body header nav ul li {
+    color: rgb(143, 127, 87);
+  }
+  body header nav ul a {
+    color: rgb(143, 127, 87);
+  }
+  body header nav ul a:visited {
+    color: rgba(206, 206, 216, 0.473);
+  }
+  body header nav ul a:hover {
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+  }
+  body header nav ul a a:active {
+    color: #000;
+    text-shadow: rgb(247, 244, 241);
+  }
+  body main {
+    color: antiquewhite;
+  }
+  body main section {
+    color: antiquewhite;
+  }
+  body main section img {
+    height: 100px;
+    width: 150px;
+  }
+  body main h3 {
+    margin-top: 100px;
+    color: rgb(143, 127, 87);
+    text-shadow: 1px 1px rgb(247, 244, 241);
+    font-size: xx-large;
+    margin-bottom: 100px;
+    align-content: center;
+  }
+  body main section {
+    color: rgb(143, 127, 87);
+  }
+  body main section form {
+    border: 2px solid rgb(143, 127, 87);
+    margin: auto;
+    text-align: center;
+    width: 500px;
+  }
+  body main section form div {
+    padding-bottom: 8px;
+    color: rgb(143, 127, 87);
+    font-size: x-large;
+  }
+  body main section form div label {
+    color: rgb(143, 127, 87);
+    float: left;
+    text-align: left;
+  }
+  body main section form div label span {
+    text-align: center;
+  }
+  body main section form div input {
+    border: solid 3px rgb(143, 127, 87);
+  }
+  body main section form div select {
+    border: solid 3px rgb(143, 127, 87);
+  }
+  body main section form textarea {
+    border: solid 3px rgb(143, 127, 87);
+    text-align: center;
+    width: 400px;
+    height: 300px;
+  }
+}
+.comentario {
+  margin-top: 100px;
+  width: 500px;
+}
+
+footer {
+  color: rgb(143, 127, 87);
+  margin-top: 150px;
+  font-style: italic;
+  font-size: medium;
+  line-height: 2;
+  text-align: center;
+}
+footer section {
+  color: rgb(143, 127, 87);
+}
+footer section img {
+  width: 90px;
+  height: 75px;
+  transform: rotate(0);
+}
+footer ul {
+  font-style: italic;
+  color: rgb(143, 127, 87);
+  line-height: 2;
+  font-size: larger;
+  align-items: center;
+  display: grid;
+}
+footer ul li {
+  color: rgb(143, 127, 87);
+}
+footer ul a {
+  color: rgb(143, 127, 87);
+}
+footer ul a:visited {
+  color: rgba(206, 206, 216, 0.473);
+}
+footer ul a:hover {
+  color: rgb(143, 127, 87);
+  text-shadow: 1px 1px rgb(247, 244, 241);
+}
+footer ul a a:active {
+  color: #000;
+  text-shadow: rgb(247, 244, 241);
+}
+
 /*Variables*/
 @media screen and (min-width: 320px) {
   body {
@@ -817,12 +1040,12 @@
   body footer main section img {
     width: 375px;
     height: 300px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   body footer main article {
     text-align: center;
     position: relative;
-    width: 50px;
+    width: 200px;
   }
   body footer main article p {
     justify-content: center;

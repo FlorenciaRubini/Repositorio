@@ -68,24 +68,228 @@ main{
         color: $color-fuente;
         text-shadow: 1px 1px rgb(247, 244, 241);
         font-size: xx-large;
+        margin-bottom: 100px;
+        align-content: center;
         }
         section{
         color: $color-fuente;
             form{
             border: 2px solid $color-fuente;
-            width: 650px;
+            width: 400px;
             margin: auto;
-            text-align: left;
+            text-align: center;
                 div{
-                padding-bottom: 5px;
+                padding-bottom: 8px;
                 color: $color-fuente;
                 font-size: x-large;
                     label{
                     color: $color-fuente;
+                    width: 120px;
+                    float: left;
+                    text-align: left;
+                        span{
+                        text-align: center;}
                     }
                     input{
-                    border: solid 3px $color-fuente;}}}}}
+                    border: solid 3px $color-fuente;}
                     select{
                     border: solid 3px $color-fuente;}}           
-        }
-        
+                    textarea{
+                    text-align: center;
+                    padding-left: 150px;
+                    width: 200px;
+                    height: 150px;
+                    }}}}}}
+                    .comentario{
+                    align-items: center;
+                    padding: 20px;
+                    }
+        .comentarios{
+        margin-top: 150px;
+        text-align: center;
+        align-content: center;}
+        footer{
+            color: $color-fuente;
+            margin-top: 150px;
+            font-style: italic;
+            font-size: medium;
+            line-height: calc(2);
+            text-align: center;
+                section{
+                    color: $color-fuente;
+                        img{
+                        width: 90px;
+                        height: 75px;
+                        transform: rotate(0);
+                        }
+                    }
+                    ul{
+                    font-style: italic;
+                    color: $color-fuente ;
+                    line-height: calc(2);
+                    font-size: larger;
+                    align-items: center;
+                    display: grid;
+                        li{
+                            color: $color-fuente;
+                            }
+                        a{  
+                            color: $color-fuente;
+                                &:visited{
+                                    color: rgba(206, 206, 216, 0.473);
+                                    }    
+                                &:hover {
+                                    color: $color-fuente;
+                                    text-shadow: 1px 1px rgb(247, 244, 241);
+                                }
+                                a:active {
+                                    color: #000;
+                                    text-shadow: rgb(247, 244, 241);
+                                }
+                    }
+                }
+            }
+
+@media screen and (min-width: 768px) {
+    body{
+        background-image: url(../img/charcoal.gif);
+            header{
+            text-align: center;
+                img{
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 5;
+                }
+                h3{
+                margin-top: 100px;
+                border: solid 5px $color-fuente;
+                text-align: center;
+                font-style: italic;
+                color: $color-fuente;
+                text-shadow: 1px 1px rgb(247, 244, 241);
+                font-size: xx-large;  
+                position: relative;
+                margin-bottom: 50px;
+                margin-left: 25px;
+                margin-right: 25px;
+                width: auto;
+                }
+                nav{
+                display: flex;
+                justify-content: center;
+                    ul{
+                    font-style: italic;
+                    color: $color-fuente ;
+                    line-height: calc(2);
+                    font-size: larger;
+                    align-items: center;
+                    display: grid;
+                        li{
+                        color: $color-fuente;}
+                            a{  
+                            color: $color-fuente;
+                            &:visited{
+                            color: rgba(206, 206, 216, 0.473);
+                            }    
+                            &:hover {
+                            color: $color-fuente;
+                            text-shadow: 1px 1px rgb(247, 244, 241);
+                            }
+                            a:active {
+                            color: #000;
+                            text-shadow: rgb(247, 244, 241);
+                            }
+                        }
+                    }
+                }}
+        main{
+                color: antiquewhite;
+                section{
+                color: antiquewhite;
+                    img{
+                    height: 100px;
+                    width: 150px;
+                    }
+                }
+                h3{
+                margin-top: 100px;
+                color: $color-fuente;
+                text-shadow: 1px 1px rgb(247, 244, 241);
+                font-size: xx-large;
+                margin-bottom: 100px;
+                align-content: center;
+                }
+                section{
+                color: $color-fuente;
+                    form{
+                    border: 2px solid $color-fuente;
+                    margin: auto;
+                    text-align: center;
+                    width: 500px;
+                        div{
+                        padding-bottom: 8px;
+                        color: $color-fuente;
+                        font-size: x-large;
+                            label{
+                            color: $color-fuente;
+                            float: left;
+                            text-align: left;
+                                span{
+                                text-align: center;}
+                            }
+                            input{
+                            border: solid 3px $color-fuente;}
+                            select{
+                            border: solid 3px $color-fuente;}}           
+                            textarea{
+                            border: solid 3px $color-fuente;
+                            text-align: center;
+                            width: 400px;
+                            height: 300px;
+                            }}}}}}
+                            .comentario{
+                            margin-top: 100px;
+                            width: 500px;
+                            }
+                footer{
+                    color: $color-fuente;
+                    margin-top: 150px;
+                    font-style: italic;
+                    font-size: medium;
+                    line-height: calc(2);
+                    text-align: center;
+                        section{
+                            color: $color-fuente;
+                                img{
+                                width: 90px;
+                                height: 75px;
+                                transform: rotate(0);
+                                }
+                            }
+                            ul{
+                            font-style: italic;
+                            color: $color-fuente ;
+                            line-height: calc(2);
+                            font-size: larger;
+                            align-items: center;
+                            display: grid;
+                                li{
+                                    color: $color-fuente;
+                                    }
+                                a{  
+                                    color: $color-fuente;
+                                        &:visited{
+                                            color: rgba(206, 206, 216, 0.473);
+                                            }    
+                                        &:hover {
+                                            color: $color-fuente;
+                                            text-shadow: 1px 1px rgb(247, 244, 241);
+                                        }
+                                        a:active {
+                                            color: #000;
+                                            text-shadow: rgb(247, 244, 241);
+                                        }
+                            }
+                        }
+                    }
